@@ -1,0 +1,27 @@
+{
+    "name": "alibayat/likeable",
+    "description": "test",
+    "authors": [
+        {
+            "name": "Rospter",
+            "email": "danialhbi02@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alibayat\\Likeable\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": ">=5.0",
+        "illuminate/database": ">=5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AliBayat\\Likeable\\LikeableServiceProvider"
+            ]
+        }
+    }
+}
